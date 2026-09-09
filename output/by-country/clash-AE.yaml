@@ -5,6 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - ayx
+  type: ss
+  server: 188.208.110.58
+  port: 8444
+  cipher: chacha20-ietf-poly1305
+  password: tunnel-astrovpn_official
+  udp: true
+- name: 🇦🇪 阿联酋 (UAE) 02 - ayx
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - ayx
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -17,7 +37,46 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - ayx
+- name: 🇦🇪 阿联酋 (UAE) 04 - ayx
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - ayx
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 06 - ayx
+  type: vless
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 07 - ayx
   type: vless
   server: 185.112.249.201
   port: 8443
@@ -38,6 +97,11 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - ayx
   - 🇦🇪 阿联酋 (UAE) 02 - ayx
+  - 🇦🇪 阿联酋 (UAE) 03 - ayx
+  - 🇦🇪 阿联酋 (UAE) 04 - ayx
+  - 🇦🇪 阿联酋 (UAE) 05 - ayx
+  - 🇦🇪 阿联酋 (UAE) 06 - ayx
+  - 🇦🇪 阿联酋 (UAE) 07 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,5 +109,10 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - ayx
   - 🇦🇪 阿联酋 (UAE) 02 - ayx
+  - 🇦🇪 阿联酋 (UAE) 03 - ayx
+  - 🇦🇪 阿联酋 (UAE) 04 - ayx
+  - 🇦🇪 阿联酋 (UAE) 05 - ayx
+  - 🇦🇪 阿联酋 (UAE) 06 - ayx
+  - 🇦🇪 阿联酋 (UAE) 07 - ayx
 rules:
 - MATCH,PROXIES
