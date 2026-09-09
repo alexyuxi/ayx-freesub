@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - ayx
   type: vless
-  server: 45.9.15.206
+  server: ru05.abvpn.ru
   port: 443
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   udp: true
@@ -17,10 +17,10 @@ proxies:
   ws-opts:
     path: /websocket
     headers:
-      Host: 45.9.15.206
+      Host: ru05.abvpn.ru
 - name: 🇷🇺 俄罗斯 (Russia) 02 - ayx
   type: vless
-  server: ru05.abvpn.ru
+  server: 45.9.15.206
   port: 443
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   udp: true
@@ -66,28 +66,21 @@ proxies:
   ws-opts:
     path: /websocket
     headers:
-      Host: ru05.abvpn.ru
+      Host: 45.9.15.206
 - name: 🇷🇺 俄罗斯 (Russia) 06 - ayx
-  type: ss
-  server: 138.124.68.88
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: Y2ZlN
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 07 - ayx
   type: vless
-  server: 104.17.169.13
-  port: 2053
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  server: ru05.abvpn.ru
+  port: 443
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: inDeX.HaRMONiCA01.WORkers.DeV
+  servername: ru05.abvpn.ru
   network: ws
   ws-opts:
-    path: /axch1mttbxz2k55y01
+    path: /websocket
     headers:
-      Host: inDeX.HaRMONiCA01.WORkers.DeV
+      Host: ru05.abvpn.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,7 +92,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - ayx
   - 🇷🇺 俄罗斯 (Russia) 05 - ayx
   - 🇷🇺 俄罗斯 (Russia) 06 - ayx
-  - 🇷🇺 俄罗斯 (Russia) 07 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,6 +103,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - ayx
   - 🇷🇺 俄罗斯 (Russia) 05 - ayx
   - 🇷🇺 俄罗斯 (Russia) 06 - ayx
-  - 🇷🇺 俄罗斯 (Russia) 07 - ayx
 rules:
 - MATCH,PROXIES
