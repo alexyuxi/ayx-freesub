@@ -45,12 +45,59 @@ proxies:
     headers:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - ayx
-  type: ss
-  server: 188.208.110.58
-  port: 8444
-  cipher: chacha20-ietf-poly1305
-  password: tunnel-astrovpn_official
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - ayx
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 06 - ayx
+  type: vless
+  server: 185.112.249.201
+  port: 8443
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-socket.tgdaosheng.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=bpb.yousef.isegaro.com
+    headers:
+      Host: web-socket.tgdaosheng.ggff.net
+- name: 🇦🇪 阿联酋 (UAE) 07 - ayx
+  type: vless
+  server: 45.131.66.61
+  port: 20001
+  uuid: 552083b3-b800-434f-972e-9d5600600a39
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +107,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - ayx
   - 🇦🇪 阿联酋 (UAE) 03 - ayx
   - 🇦🇪 阿联酋 (UAE) 04 - ayx
+  - 🇦🇪 阿联酋 (UAE) 05 - ayx
+  - 🇦🇪 阿联酋 (UAE) 06 - ayx
+  - 🇦🇪 阿联酋 (UAE) 07 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,5 +119,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - ayx
   - 🇦🇪 阿联酋 (UAE) 03 - ayx
   - 🇦🇪 阿联酋 (UAE) 04 - ayx
+  - 🇦🇪 阿联酋 (UAE) 05 - ayx
+  - 🇦🇪 阿联酋 (UAE) 06 - ayx
+  - 🇦🇪 阿联酋 (UAE) 07 - ayx
 rules:
 - MATCH,PROXIES

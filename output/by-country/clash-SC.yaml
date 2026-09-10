@@ -14,17 +14,65 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇨 SC 02 - ayx
+  type: vless
+  server: 141.101.121.158
+  port: 443
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
+- name: 🇸🇨 SC 03 - ayx
+  type: vless
+  server: 45.130.125.96
+  port: 443
+  uuid: 28607fa7-db30-47d6-942a-f5744e4be9ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-pusat
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🇸🇨 SC 04 - ayx
+  type: vless
+  server: 66.81.247.155
+  port: 2083
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: testmikonim.hydrymhmdamyn7.workers.dev
+  network: ws
+  ws-opts:
+    path: /OAZko425kNFF0PpQ
+    headers:
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - ayx
+  - 🇸🇨 SC 02 - ayx
+  - 🇸🇨 SC 03 - ayx
+  - 🇸🇨 SC 04 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - ayx
+  - 🇸🇨 SC 02 - ayx
+  - 🇸🇨 SC 03 - ayx
+  - 🇸🇨 SC 04 - ayx
 rules:
 - MATCH,PROXIES
