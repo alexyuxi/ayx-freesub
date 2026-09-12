@@ -4,33 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - ayx
-  type: vmess
-  server: 162.4.136.79
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 01 (家宽) - ayx
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: renderer-stream-2-62.mirra.now
   network: ws
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /?ed=2560
     headers:
-      Host: renderer-stream-2-62.mirra.now
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - ayx
+  - 🇺🇸 美国 (United States) 01 (家宽) - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - ayx
+  - 🇺🇸 美国 (United States) 01 (家宽) - ayx
 rules:
 - MATCH,PROXIES
