@@ -5,32 +5,9 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - ayx
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇨 SC 02 - ayx
-  type: vless
-  server: 108.162.198.178
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 03 - ayx
   type: vless
   server: 188.114.97.6
-  port: 2082
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -40,29 +17,73 @@ proxies:
     path: /
     headers:
       Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 04 - ayx
+- name: 🇸🇨 SC 02 - ayx
   type: vless
-  server: 172.64.42.85
-  port: 2095
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: notls.lukongtou.eu.org
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇸🇨 SC 03 - ayx
+  type: vless
+  server: 108.162.198.178
+  port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 04 - ayx
+  type: vless
+  server: 172.67.220.34
+  port: 443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
 - name: 🇸🇨 SC 05 - ayx
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 06 - ayx
+  type: vless
+  server: 154.197.64.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime36.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +94,7 @@ proxy-groups:
   - 🇸🇨 SC 03 - ayx
   - 🇸🇨 SC 04 - ayx
   - 🇸🇨 SC 05 - ayx
+  - 🇸🇨 SC 06 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -83,5 +105,6 @@ proxy-groups:
   - 🇸🇨 SC 03 - ayx
   - 🇸🇨 SC 04 - ayx
   - 🇸🇨 SC 05 - ayx
+  - 🇸🇨 SC 06 - ayx
 rules:
 - MATCH,PROXIES
