@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 02 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 03 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 04 - ayx"
+        "🇭🇰 中国香港 (Hong Kong) 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 02 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 03 - ayx",
-        "🇭🇰 中国香港 (Hong Kong) 04 - ayx"
+        "🇭🇰 中国香港 (Hong Kong) 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
