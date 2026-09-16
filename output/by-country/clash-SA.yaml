@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - ayx
   type: vless
-  server: 91.209.253.42
+  server: 91.209.253.250
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 02 - ayx
   type: vless
-  server: 91.209.253.250
+  server: 91.209.253.216
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -46,18 +46,6 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 04 - ayx
-  type: vless
-  server: 81.208.170.142
-  port: 1500
-  uuid: e332f028-d343-5b44-8016-b3130f39e133
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
-  servername: www.ebay.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +54,6 @@ proxy-groups:
   - 🇸🇦 SA 01 - ayx
   - 🇸🇦 SA 02 - ayx
   - 🇸🇦 SA 03 - ayx
-  - 🇸🇦 SA 04 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,6 +62,5 @@ proxy-groups:
   - 🇸🇦 SA 01 - ayx
   - 🇸🇦 SA 02 - ayx
   - 🇸🇦 SA 03 - ayx
-  - 🇸🇦 SA 04 - ayx
 rules:
 - MATCH,PROXIES
