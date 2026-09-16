@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - ayx",
-        "🇸🇦 SA 02 - ayx"
+        "🇹🇷 土耳其 (Turkey) 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - ayx",
-        "🇸🇦 SA 02 - ayx"
+        "🇹🇷 土耳其 (Turkey) 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
