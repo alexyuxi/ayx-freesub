@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - ayx
   type: vless
-  server: 68.64.179.129
+  server: 45.202.247.152
   port: 443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -15,10 +15,24 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /code?ed=2560fp=chrome
+    path: /jump.html/star?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇹🇭 TH 02 - ayx
+  type: vless
+  server: 8.222.84.103
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /member/discount
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇹🇭 TH 03 - ayx
   type: vless
   server: 103.86.49.57
   port: 80
@@ -31,7 +45,7 @@ proxies:
     path: /ws
     headers:
       Host: aIs.SpEeDtEsT.nEt
-- name: 🇹🇭 TH 03 - ayx
+- name: 🇹🇭 TH 04 - ayx
   type: vmess
   server: 118.193.57.167
   port: 49667
@@ -54,6 +68,7 @@ proxy-groups:
   - 🇹🇭 TH 01 - ayx
   - 🇹🇭 TH 02 - ayx
   - 🇹🇭 TH 03 - ayx
+  - 🇹🇭 TH 04 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +77,6 @@ proxy-groups:
   - 🇹🇭 TH 01 - ayx
   - 🇹🇭 TH 02 - ayx
   - 🇹🇭 TH 03 - ayx
+  - 🇹🇭 TH 04 - ayx
 rules:
 - MATCH,PROXIES
