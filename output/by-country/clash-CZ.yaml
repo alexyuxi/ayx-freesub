@@ -6,49 +6,33 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - ayx
   type: vless
-  server: 64.227.67.161
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 162.159.24.131
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /members/detail/gif
+    path: /?ed=2560security=tls+
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇨🇿 CZ 02 - ayx
   type: vless
-  server: 195.85.23.252
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 172.64.229.170
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /?ed=2560security=tls
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇨🇿 CZ 03 - ayx
   type: vless
-  server: 132.243.203.218
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /v?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇨🇿 CZ 04 - ayx
-  type: vless
-  server: 195.85.23.47
+  server: 195.85.23.88
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -60,7 +44,7 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - ayx
+- name: 🇨🇿 CZ 04 - ayx
   type: vless
   server: 195.85.23.29
   port: 443
@@ -74,9 +58,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - ayx
+- name: 🇨🇿 CZ 05 - ayx
   type: vless
-  server: 195.85.23.45
+  server: 195.85.23.248
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -88,34 +72,6 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - ayx
-  type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - ayx
-  type: vless
-  server: 185.125.103.62
-  port: 8082
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -126,9 +82,6 @@ proxy-groups:
   - 🇨🇿 CZ 03 - ayx
   - 🇨🇿 CZ 04 - ayx
   - 🇨🇿 CZ 05 - ayx
-  - 🇨🇿 CZ 06 - ayx
-  - 🇨🇿 CZ 07 - ayx
-  - 🇨🇿 CZ 08 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -139,8 +92,5 @@ proxy-groups:
   - 🇨🇿 CZ 03 - ayx
   - 🇨🇿 CZ 04 - ayx
   - 🇨🇿 CZ 05 - ayx
-  - 🇨🇿 CZ 06 - ayx
-  - 🇨🇿 CZ 07 - ayx
-  - 🇨🇿 CZ 08 - ayx
 rules:
 - MATCH,PROXIES
