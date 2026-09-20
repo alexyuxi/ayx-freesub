@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - ayx",
-        "🇸🇦 SA 02 - ayx",
-        "🇸🇦 SA 03 - ayx",
-        "🇸🇦 SA 04 - ayx",
-        "🇸🇦 SA 05 - ayx",
-        "🇸🇦 SA 06 - ayx"
+        "🇸🇪 SE 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - ayx",
-        "🇸🇦 SA 02 - ayx",
-        "🇸🇦 SA 03 - ayx",
-        "🇸🇦 SA 04 - ayx",
-        "🇸🇦 SA 05 - ayx",
-        "🇸🇦 SA 06 - ayx"
+        "🇸🇪 SE 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
