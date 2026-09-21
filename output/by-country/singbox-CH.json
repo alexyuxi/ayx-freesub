@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - ayx"
+        "🇨🇭 CH 01 - ayx",
+        "🇨🇭 CH 02 - ayx",
+        "🇨🇭 CH 03 - ayx",
+        "🇨🇭 CH 04 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - ayx"
+        "🇨🇭 CH 01 - ayx",
+        "🇨🇭 CH 02 - ayx",
+        "🇨🇭 CH 03 - ayx",
+        "🇨🇭 CH 04 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
