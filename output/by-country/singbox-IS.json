@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - ayx",
-        "🇨🇿 CZ 02 - ayx"
+        "🇮🇸 IS 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - ayx",
-        "🇨🇿 CZ 02 - ayx"
+        "🇮🇸 IS 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
