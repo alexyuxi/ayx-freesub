@@ -6,18 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - ayx",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - ayx",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - ayx"
+        "🇨🇾 CY 01 - ayx",
+        "🇨🇾 CY 02 - ayx",
+        "🇨🇾 CY 03 - ayx",
+        "🇨🇾 CY 04 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - ayx",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - ayx",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - ayx"
+        "🇨🇾 CY 01 - ayx",
+        "🇨🇾 CY 02 - ayx",
+        "🇨🇾 CY 03 - ayx",
+        "🇨🇾 CY 04 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
