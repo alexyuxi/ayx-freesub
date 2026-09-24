@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - ayx",
-        "🇨🇾 CY 02 - ayx",
-        "🇨🇾 CY 03 - ayx",
-        "🇨🇾 CY 04 - ayx",
-        "🇨🇾 CY 05 - ayx",
-        "🇨🇾 CY 06 - ayx"
+        "🇹🇷 土耳其 (Turkey) 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - ayx",
-        "🇨🇾 CY 02 - ayx",
-        "🇨🇾 CY 03 - ayx",
-        "🇨🇾 CY 04 - ayx",
-        "🇨🇾 CY 05 - ayx",
-        "🇨🇾 CY 06 - ayx"
+        "🇹🇷 土耳其 (Turkey) 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },

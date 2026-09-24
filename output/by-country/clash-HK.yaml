@@ -5,13 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - ayx
-  type: ss
-  server: ehwn62tnx5g8.cdn000.com
-  port: 30003
-  cipher: 2022-blake3-aes-128-gcm
-  password: Y2FkNzhhZWQ0MzA1NzlhZA==:NGMxZWEyZDMtZjBiMS00Yw==
+  type: vless
+  server: 34.92.145.185
+  port: 443
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - ayx
+  type: vless
+  server: 34.92.145.185
+  port: 443
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - ayx
   type: vmess
   server: 89.223.95.77
   port: 22324
@@ -21,22 +38,32 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - ayx
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - ayx
   type: vmess
-  server: 47.243.65.243
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: ''
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - ayx
+  type: vmess
+  server: 89.223.95.77
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,6 +72,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - ayx
   - 🇭🇰 中国香港 (Hong Kong) 02 - ayx
   - 🇭🇰 中国香港 (Hong Kong) 03 - ayx
+  - 🇭🇰 中国香港 (Hong Kong) 04 - ayx
+  - 🇭🇰 中国香港 (Hong Kong) 05 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,5 +82,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - ayx
   - 🇭🇰 中国香港 (Hong Kong) 02 - ayx
   - 🇭🇰 中国香港 (Hong Kong) 03 - ayx
+  - 🇭🇰 中国香港 (Hong Kong) 04 - ayx
+  - 🇭🇰 中国香港 (Hong Kong) 05 - ayx
 rules:
 - MATCH,PROXIES
