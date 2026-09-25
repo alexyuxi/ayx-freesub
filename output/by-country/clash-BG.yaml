@@ -6,12 +6,17 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - ayx
   type: vless
-  server: 31.56.222.61
-  port: 36587
-  uuid: 79251d3c-aabc-475c-b598-67263479b382
+  server: 131.123.37.199
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.37.199
 proxy-groups:
 - name: PROXIES
   type: select
