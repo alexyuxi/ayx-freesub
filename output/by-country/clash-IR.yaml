@@ -4,31 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - ayx
+- name: 🇮🇷 IR 01 - ayx
   type: vless
-  server: 160.187.1.101
-  port: 443
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: freeman.curtvip.ir
+  port: 20410
+  uuid: 442581ff-646e-4e99-af3e-a9d9a636a44b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: thus-k.netnode.cc.cd
-  network: ws
-  ws-opts:
-    path: /t.me/daily_free_vpn
-    headers:
-      Host: thus-k.netnode.cc.cd
+  reality-opts:
+    public-key: BErODvy5h6Cjw5zWfX_CZ5ODH9p1XbZwU-ZEHyVXEGI
+  servername: secureconnect-pa.mtls.clients6.google.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - ayx
+  - 🇮🇷 IR 01 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - ayx
+  - 🇮🇷 IR 01 - ayx
 rules:
 - MATCH,PROXIES
