@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇨🇾 CY 01 - ayx",
-        "🇨🇾 CY 02 - ayx"
+        "🇨🇾 CY 02 - ayx",
+        "🇨🇾 CY 03 - ayx",
+        "🇨🇾 CY 04 - ayx"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇾 CY 01 - ayx",
-        "🇨🇾 CY 02 - ayx"
+        "🇨🇾 CY 02 - ayx",
+        "🇨🇾 CY 03 - ayx",
+        "🇨🇾 CY 04 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
