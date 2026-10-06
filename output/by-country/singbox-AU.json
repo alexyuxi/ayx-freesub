@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇪 GE 01 - ayx",
-        "🇬🇪 GE 02 - ayx"
+        "🇦🇺 澳大利亚 (Australia) 01 - ayx",
+        "🇦🇺 澳大利亚 (Australia) 02 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇪 GE 01 - ayx",
-        "🇬🇪 GE 02 - ayx"
+        "🇦🇺 澳大利亚 (Australia) 01 - ayx",
+        "🇦🇺 澳大利亚 (Australia) 02 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
