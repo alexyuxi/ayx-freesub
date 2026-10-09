@@ -31,42 +31,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 95.85.253.241
-- name: 🇵🇱 PL 04 - ayx
-  type: vless
-  server: 95.85.253.241
-  port: 2087
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 05 - ayx
-  type: vless
-  server: 95.85.253.241
-  port: 2087
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 06 - ayx
-  type: vless
-  server: 95.85.253.241
-  port: 2083
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 07 - ayx
-  type: vless
-  server: 95.85.253.241
-  port: 2083
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
 proxy-groups:
 - name: PROXIES
   type: select
@@ -75,10 +39,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - ayx
   - 🇵🇱 PL 02 - ayx
   - 🇵🇱 PL 03 - ayx
-  - 🇵🇱 PL 04 - ayx
-  - 🇵🇱 PL 05 - ayx
-  - 🇵🇱 PL 06 - ayx
-  - 🇵🇱 PL 07 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,9 +47,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - ayx
   - 🇵🇱 PL 02 - ayx
   - 🇵🇱 PL 03 - ayx
-  - 🇵🇱 PL 04 - ayx
-  - 🇵🇱 PL 05 - ayx
-  - 🇵🇱 PL 06 - ayx
-  - 🇵🇱 PL 07 - ayx
 rules:
 - MATCH,PROXIES

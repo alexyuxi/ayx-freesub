@@ -5,20 +5,48 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - ayx
+  type: ss
+  server: 194.87.68.140
+  port: 50660
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - ayx
   type: vless
-  server: 45.9.13.99
+  server: 104.18.0.1
   port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: x.m-90.xyz
+  servername: all.speedtest03.ccwu.cc
   network: ws
   ws-opts:
-    path: t.me/TEAMNETGRATISCOL
+    path: /
     headers:
-      Host: x.m-90.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 02 - ayx
+      Host: all.speedtest03.ccwu.cc
+- name: 🇷🇺 俄罗斯 (Russia) 03 - ayx
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - ayx
+  type: vless
+  server: 188.114.97.3
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 05 - ayx
   type: ss
   server: 46.17.45.31
   port: 50660
@@ -32,6 +60,9 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - ayx
   - 🇷🇺 俄罗斯 (Russia) 02 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 03 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 04 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 05 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -39,5 +70,8 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - ayx
   - 🇷🇺 俄罗斯 (Russia) 02 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 03 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 04 - ayx
+  - 🇷🇺 俄罗斯 (Russia) 05 - ayx
 rules:
 - MATCH,PROXIES
