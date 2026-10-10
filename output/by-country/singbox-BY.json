@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - ayx"
+        "🇧🇾 BY 01 - ayx",
+        "🇧🇾 BY 02 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - ayx"
+        "🇧🇾 BY 01 - ayx",
+        "🇧🇾 BY 02 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
