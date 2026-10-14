@@ -6,17 +6,16 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - ayx
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: zordbx861.233874.xyz
+  port: 8888
+  uuid: 46509b23-fe97-45b3-9c89-bd1b2a93bd4e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 02 - ayx
   type: vless
   server: uae.unixzone.us
@@ -32,6 +31,20 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - ayx
   type: vless
+  server: 116.204.164.17
+  port: 7443
+  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - ayx
+  type: vless
   server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -43,7 +56,21 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - ayx
+- name: 🇦🇪 阿联酋 (UAE) 05 - ayx
+  type: vless
+  server: 116.204.164.5
+  port: 7443
+  uuid: 2416ff70-cb17-4cdc-834d-a89c00261e01
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - ayx
   type: vless
   server: 31.57.190.49
   port: 443
@@ -57,20 +84,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132fp=unsafe
     headers:
       Host: lucasjow.us.ci
-- name: 🇦🇪 阿联酋 (UAE) 05 - ayx
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - ayx
+- name: 🇦🇪 阿联酋 (UAE) 07 - ayx
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -83,21 +97,9 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - ayx
-  type: vless
-  server: zordbx861.233874.xyz
-  port: 8888
-  uuid: 46509b23-fe97-45b3-9c89-bd1b2a93bd4e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 08 - ayx
   type: vless
-  server: 31.57.190.49
+  server: 31.57.190.17
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -111,7 +113,7 @@ proxies:
       Host: lucasjow.us.ci
 - name: 🇦🇪 阿联酋 (UAE) 09 - ayx
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
