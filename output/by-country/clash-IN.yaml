@@ -58,7 +58,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 05 - ayx
   type: vless
   server: 13.140.56.100
@@ -73,21 +73,6 @@ proxies:
     headers:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 06 - ayx
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.67.8.205
-- name: 🇮🇳 印度 (India) 07 - ayx
   type: ss
   server: 172.105.39.124
   port: 7002
@@ -105,7 +90,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - ayx
   - 🇮🇳 印度 (India) 05 - ayx
   - 🇮🇳 印度 (India) 06 - ayx
-  - 🇮🇳 印度 (India) 07 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -117,6 +101,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - ayx
   - 🇮🇳 印度 (India) 05 - ayx
   - 🇮🇳 印度 (India) 06 - ayx
-  - 🇮🇳 印度 (India) 07 - ayx
 rules:
 - MATCH,PROXIES
