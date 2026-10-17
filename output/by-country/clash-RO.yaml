@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - ayx
   type: ss
-  server: 194.68.44.42
-  port: 64546
+  server: 154.46.31.106
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: U83u9OGpvSatIUW7LsWffr
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
 - name: 🇷🇴 RO 02 - ayx
   type: vless
@@ -20,13 +20,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇷🇴 RO 03 - ayx
-  type: ss
-  server: 154.46.31.106
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
-- name: 🇷🇴 RO 04 - ayx
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -34,7 +27,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 05 - ayx
+- name: 🇷🇴 RO 04 - ayx
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -51,7 +44,6 @@ proxy-groups:
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
   - 🇷🇴 RO 04 - ayx
-  - 🇷🇴 RO 05 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,6 +53,5 @@ proxy-groups:
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
   - 🇷🇴 RO 04 - ayx
-  - 🇷🇴 RO 05 - ayx
 rules:
 - MATCH,PROXIES
