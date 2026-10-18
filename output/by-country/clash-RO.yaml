@@ -5,13 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - ayx
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  type: ss
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇷🇴 RO 02 - ayx
   type: vless
   server: edge10.cyrionflare.com
@@ -22,13 +21,20 @@ proxies:
   skip-cert-verify: true
 - name: 🇷🇴 RO 03 - ayx
   type: vless
-  server: roxnsk.color-shop.ir
-  port: 8080
-  uuid: e3026ffb-cde6-4cfe-b4b7-f76d5264e969
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇷🇴 RO 04 - ayx
+  type: ss
+  server: 194.68.44.42
+  port: 64546
+  cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
+  udp: true
+- name: 🇷🇴 RO 05 - ayx
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -45,6 +51,7 @@ proxy-groups:
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
   - 🇷🇴 RO 04 - ayx
+  - 🇷🇴 RO 05 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -54,5 +61,6 @@ proxy-groups:
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
   - 🇷🇴 RO 04 - ayx
+  - 🇷🇴 RO 05 - ayx
 rules:
 - MATCH,PROXIES
