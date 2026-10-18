@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇭 PH 01 - ayx",
+        "🇵🇭 PH 02 - ayx",
+        "🇵🇭 PH 03 - ayx",
+        "🇵🇭 PH 04 - ayx",
+        "🇵🇭 PH 05 - ayx",
+        "🇵🇭 PH 06 - ayx",
+        "🇵🇭 PH 07 - ayx",
+        "🇵🇭 PH 08 - ayx",
+        "🇵🇭 PH 09 - ayx",
+        "🇵🇭 PH 10 - ayx",
+        "🇵🇭 PH 11 - ayx"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇭 PH 01 - ayx",
+        "🇵🇭 PH 02 - ayx",
+        "🇵🇭 PH 03 - ayx",
+        "🇵🇭 PH 04 - ayx",
+        "🇵🇭 PH 05 - ayx",
+        "🇵🇭 PH 06 - ayx",
+        "🇵🇭 PH 07 - ayx",
+        "🇵🇭 PH 08 - ayx",
+        "🇵🇭 PH 09 - ayx",
+        "🇵🇭 PH 10 - ayx",
+        "🇵🇭 PH 11 - ayx"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
