@@ -6,28 +6,28 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - ayx
   type: vless
-  server: 104.16.111.102
+  server: 104.21.71.249
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
-      Host: jp3.yohototo.top
+      Host: lucasjow.us.ci
 - name: 🇯🇵 日本 (Japan) 02 - ayx
   type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
   udp: true
 - name: 🇯🇵 日本 (Japan) 03 - ayx
   type: vless
-  server: 104.27.46.35
+  server: 104.16.10.104
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -41,8 +41,8 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 04 - ayx
   type: vless
-  server: 154.31.114.162
-  port: 8443
+  server: 162.159.254.3
+  port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
@@ -54,314 +54,6 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 05 - ayx
-  type: vless
-  server: 43.167.232.174
-  port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 06 - ayx
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-- name: 🇯🇵 日本 (Japan) 07 - ayx
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 08 - ayx
-  type: vless
-  server: 43.167.232.174
-  port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: ios
-- name: 🇯🇵 日本 (Japan) 09 - ayx
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 10 - ayx
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 11 - ayx
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 12 - ayx
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 13 - ayx
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-- name: 🇯🇵 日本 (Japan) 14 - ayx
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 15 - ayx
-  type: ss
-  server: 191.223.221.53
-  port: 8388
-  cipher: aes-256-gcm
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 16 - ayx
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 17 - ayx
-  type: vless
-  server: 104.17.50.227
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 18 - ayx
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 19 - ayx
-  type: vless
-  server: 104.16.111.195
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 20 - ayx
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 21 - ayx
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 22 - ayx
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 23 - ayx
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 24 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 25 - ayx
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 26 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 27 - ayx
-  type: vless
-  server: 130.94.67.40
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 28 - ayx
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 29 - ayx
-  type: vless
-  server: 104.16.111.195
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 30 - ayx
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 31 - ayx
   type: vless
   server: 104.19.33.25
   port: 443
@@ -375,112 +67,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 32 - ayx
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 33 - ayx
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 34 - ayx
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 35 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 36 - ayx
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 37 - ayx
-  type: vless
-  server: 130.94.65.201
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 38 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B%27platform115.halalkhor.info%27%5D'
-- name: 🇯🇵 日本 (Japan) 39 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 40 - ayx
+- name: 🇯🇵 日本 (Japan) 06 - ayx
   type: vless
   server: 104.24.31.89
   port: 443
@@ -494,20 +81,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 41 - ayx
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 42 - ayx
+- name: 🇯🇵 日本 (Japan) 07 - ayx
   type: vless
   server: 188.114.97.6
   port: 443
@@ -521,7 +95,21 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 43 - ayx
+- name: 🇯🇵 日本 (Japan) 08 - ayx
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 09 - ayx
   type: vless
   server: 141.11.139.215
   port: 443
@@ -535,9 +123,30 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇯🇵 日本 (Japan) 44 - ayx
+- name: 🇯🇵 日本 (Japan) 10 - ayx
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 11 - ayx
   type: vless
-  server: 104.16.10.104
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 12 - ayx
+  type: vless
+  server: 104.16.10.234
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -549,61 +158,87 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 45 - ayx
+- name: 🇯🇵 日本 (Japan) 13 - ayx
   type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: '%5B%27platform113.halalkhor.info%27%5D'
-- name: 🇯🇵 日本 (Japan) 46 - ayx
+- name: 🇯🇵 日本 (Japan) 14 - ayx
   type: vless
-  server: 130.94.67.50
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: 104.16.10.63
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /platform113
+    path: /tyxyws
     headers:
-      Host: 130.94.67.50
-- name: 🇯🇵 日本 (Japan) 47 - ayx
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 15 - ayx
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 48 - ayx
+- name: 🇯🇵 日本 (Japan) 16 - ayx
   type: vless
-  server: 130.94.67.156
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: 104.21.33.59
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /platform103
+    path: /tyxyws
     headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 49 - ayx
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 17 - ayx
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 18 - ayx
   type: vless
-  server: cf.090227.xyz
+  server: 104.16.10.2
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 19 - ayx
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 20 - ayx
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -615,34 +250,16 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 50 - ayx
-  type: vless
-  server: 130.94.67.180
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: 130.94.67.180
-- name: 🇯🇵 日本 (Japan) 51 - ayx
-  type: vless
-  server: 43.167.232.174
+- name: 🇯🇵 日本 (Japan) 21 - ayx
+  type: ss
+  server: 149.22.87.240
   port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 52 - ayx
+- name: 🇯🇵 日本 (Japan) 22 - ayx
   type: vless
-  server: 104.16.111.202
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -654,80 +271,136 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 53 - ayx
+- name: 🇯🇵 日本 (Japan) 23 - ayx
   type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 54 - ayx
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 55 - ayx
-  type: vless
-  server: 130.94.67.180
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 56 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 57 - ayx
-  type: vless
-  server: 137.220.221.179
+  server: 172.67.172.155
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 58 - ayx
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 24 - ayx
   type: vless
-  server: platform103.golnamakcert.top
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 25 - ayx
+  type: vmess
+  server: 168.138.43.75
   port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform103
+    path: /cctv13.m3u8
     headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 59 - ayx
+      Host: none
+- name: 🇯🇵 日本 (Japan) 26 - ayx
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 27 - ayx
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 28 - ayx
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 29 - ayx
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 30 - ayx
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 31 - ayx
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 32 - ayx
   type: vless
   server: 43.170.8.95
   port: 443
@@ -741,37 +414,16 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 60 - ayx
-  type: vless
-  server: 104.21.93.182
+- name: 🇯🇵 日本 (Japan) 33 - ayx
+  type: ss
+  server: 149.22.87.204
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 61 - ayx
+- name: 🇯🇵 日本 (Japan) 34 - ayx
   type: vless
-  server: 141.11.139.215
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇯🇵 日本 (Japan) 62 - ayx
-  type: vless
-  server: 104.21.34.106
+  server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -783,61 +435,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 63 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 64 - ayx
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 65 - ayx
-  type: vless
-  server: 104.21.70.228
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 66 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 67 - ayx
+- name: 🇯🇵 日本 (Japan) 35 - ayx
   type: vless
   server: 130.94.65.201
   port: 80
@@ -850,264 +448,7 @@ proxies:
     path: /platform115
     headers:
       Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 68 - ayx
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 69 - ayx
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 70 - ayx
-  type: vless
-  server: 104.21.6.186
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 71 - ayx
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 72 - ayx
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 73 - ayx
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---config_Qavi
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 74 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 75 - ayx
-  type: vless
-  server: 130.94.67.40
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: 130.94.67.40
-- name: 🇯🇵 日本 (Japan) 76 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 77 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 78 - ayx
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 79 - ayx
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 80 - ayx
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 81 - ayx
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 82 - ayx
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 83 - ayx
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 84 - ayx
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 85 - ayx
-  type: vless
-  server: platform107.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform107
-    headers:
-      Host: platform107.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 86 - ayx
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 87 - ayx
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 88 - ayx
+- name: 🇯🇵 日本 (Japan) 36 - ayx
   type: vless
   server: platform115.golnamakcert.top
   port: 80
@@ -1120,7 +461,7 @@ proxies:
     path: /platform115
     headers:
       Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 89 - ayx
+- name: 🇯🇵 日本 (Japan) 37 - ayx
   type: vless
   server: platform115.golnamakcert.top
   port: 80
@@ -1132,8 +473,8 @@ proxies:
   ws-opts:
     path: /platform115
     headers:
-      Host: platform115.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 90 - ayx
+      Host: '%5B'
+- name: 🇯🇵 日本 (Japan) 38 - ayx
   type: vless
   server: 130.94.65.201
   port: 80
@@ -1146,9 +487,9 @@ proxies:
     path: /platform115
     headers:
       Host: 130.94.65.201
-- name: 🇯🇵 日本 (Japan) 91 - ayx
+- name: 🇯🇵 日本 (Japan) 39 - ayx
   type: vless
-  server: platform101.golnamakcert.top
+  server: 130.94.65.201
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1156,12 +497,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform101
+    path: /platform115
     headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 92 - ayx
+      Host: platform115.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 40 - ayx
   type: vless
-  server: platform102.golnamakcert.top
+  server: platform115.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1169,12 +510,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform102
+    path: /platform115
     headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 93 - ayx
+      Host: platform115.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 41 - ayx
   type: vless
-  server: platform106.golnamakcert.top
+  server: platform117.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1182,12 +523,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform106
+    path: /platform117
     headers:
-      Host: platform106.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 94 - ayx
+      Host: platform117.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 42 - ayx
   type: vless
-  server: platform101.golnamakcert.top
+  server: platform118.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1195,12 +536,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform101
+    path: /platform118
     headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 95 - ayx
+      Host: platform118.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 43 - ayx
   type: vless
-  server: platform102.golnamakcert.top
+  server: 130.94.67.40
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1208,12 +549,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform102
+    path: /platform118
     headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 96 - ayx
+      Host: platform118.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 44 - ayx
   type: vless
-  server: platform102.golnamakcert.top
+  server: platform113.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1221,10 +562,36 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform102
+    path: /platform113
     headers:
-      Host: platform102.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 97 - ayx
+      Host: platform113.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 45 - ayx
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 46 - ayx
+  type: vless
+  server: 130.94.67.180
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 47 - ayx
   type: vless
   server: 130.94.67.50
   port: 80
@@ -1237,33 +604,7 @@ proxies:
     path: /platform113
     headers:
       Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 98 - ayx
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 99 - ayx
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 100 - ayx
+- name: 🇯🇵 日本 (Japan) 48 - ayx
   type: vless
   server: platform113.golnamakcert.top
   port: 80
@@ -1276,7 +617,137 @@ proxies:
     path: /platform113
     headers:
       Host: platform113.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 101 - ayx
+- name: 🇯🇵 日本 (Japan) 49 - ayx
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 50 - ayx
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 51 - ayx
+  type: vless
+  server: platform103.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform103
+    headers:
+      Host: platform103.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 52 - ayx
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 53 - ayx
+  type: vless
+  server: 130.94.67.180
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: 130.94.67.180
+- name: 🇯🇵 日本 (Japan) 54 - ayx
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 55 - ayx
+  type: vless
+  server: 130.94.67.156
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform103
+    headers:
+      Host: platform103.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 56 - ayx
+  type: vless
+  server: platform103.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform103
+    headers:
+      Host: platform103.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 57 - ayx
+  type: vless
+  server: platform103.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform103
+    headers:
+      Host: platform103.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 58 - ayx
+  type: vless
+  server: 130.94.67.40
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: 130.94.67.40
+- name: 🇯🇵 日本 (Japan) 59 - ayx
   type: vless
   server: platform118.golnamakcert.top
   port: 80
@@ -1288,7 +759,33 @@ proxies:
   ws-opts:
     path: /platform118
     headers:
-      Host: platform118.halalkhor.info
+      Host: platform118.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 60 - ayx
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 61 - ayx
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.golnamakcert.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1355,46 +852,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 59 - ayx
   - 🇯🇵 日本 (Japan) 60 - ayx
   - 🇯🇵 日本 (Japan) 61 - ayx
-  - 🇯🇵 日本 (Japan) 62 - ayx
-  - 🇯🇵 日本 (Japan) 63 - ayx
-  - 🇯🇵 日本 (Japan) 64 - ayx
-  - 🇯🇵 日本 (Japan) 65 - ayx
-  - 🇯🇵 日本 (Japan) 66 - ayx
-  - 🇯🇵 日本 (Japan) 67 - ayx
-  - 🇯🇵 日本 (Japan) 68 - ayx
-  - 🇯🇵 日本 (Japan) 69 - ayx
-  - 🇯🇵 日本 (Japan) 70 - ayx
-  - 🇯🇵 日本 (Japan) 71 - ayx
-  - 🇯🇵 日本 (Japan) 72 - ayx
-  - 🇯🇵 日本 (Japan) 73 - ayx
-  - 🇯🇵 日本 (Japan) 74 - ayx
-  - 🇯🇵 日本 (Japan) 75 - ayx
-  - 🇯🇵 日本 (Japan) 76 - ayx
-  - 🇯🇵 日本 (Japan) 77 - ayx
-  - 🇯🇵 日本 (Japan) 78 - ayx
-  - 🇯🇵 日本 (Japan) 79 - ayx
-  - 🇯🇵 日本 (Japan) 80 - ayx
-  - 🇯🇵 日本 (Japan) 81 - ayx
-  - 🇯🇵 日本 (Japan) 82 - ayx
-  - 🇯🇵 日本 (Japan) 83 - ayx
-  - 🇯🇵 日本 (Japan) 84 - ayx
-  - 🇯🇵 日本 (Japan) 85 - ayx
-  - 🇯🇵 日本 (Japan) 86 - ayx
-  - 🇯🇵 日本 (Japan) 87 - ayx
-  - 🇯🇵 日本 (Japan) 88 - ayx
-  - 🇯🇵 日本 (Japan) 89 - ayx
-  - 🇯🇵 日本 (Japan) 90 - ayx
-  - 🇯🇵 日本 (Japan) 91 - ayx
-  - 🇯🇵 日本 (Japan) 92 - ayx
-  - 🇯🇵 日本 (Japan) 93 - ayx
-  - 🇯🇵 日本 (Japan) 94 - ayx
-  - 🇯🇵 日本 (Japan) 95 - ayx
-  - 🇯🇵 日本 (Japan) 96 - ayx
-  - 🇯🇵 日本 (Japan) 97 - ayx
-  - 🇯🇵 日本 (Japan) 98 - ayx
-  - 🇯🇵 日本 (Japan) 99 - ayx
-  - 🇯🇵 日本 (Japan) 100 - ayx
-  - 🇯🇵 日本 (Japan) 101 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1461,45 +918,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 59 - ayx
   - 🇯🇵 日本 (Japan) 60 - ayx
   - 🇯🇵 日本 (Japan) 61 - ayx
-  - 🇯🇵 日本 (Japan) 62 - ayx
-  - 🇯🇵 日本 (Japan) 63 - ayx
-  - 🇯🇵 日本 (Japan) 64 - ayx
-  - 🇯🇵 日本 (Japan) 65 - ayx
-  - 🇯🇵 日本 (Japan) 66 - ayx
-  - 🇯🇵 日本 (Japan) 67 - ayx
-  - 🇯🇵 日本 (Japan) 68 - ayx
-  - 🇯🇵 日本 (Japan) 69 - ayx
-  - 🇯🇵 日本 (Japan) 70 - ayx
-  - 🇯🇵 日本 (Japan) 71 - ayx
-  - 🇯🇵 日本 (Japan) 72 - ayx
-  - 🇯🇵 日本 (Japan) 73 - ayx
-  - 🇯🇵 日本 (Japan) 74 - ayx
-  - 🇯🇵 日本 (Japan) 75 - ayx
-  - 🇯🇵 日本 (Japan) 76 - ayx
-  - 🇯🇵 日本 (Japan) 77 - ayx
-  - 🇯🇵 日本 (Japan) 78 - ayx
-  - 🇯🇵 日本 (Japan) 79 - ayx
-  - 🇯🇵 日本 (Japan) 80 - ayx
-  - 🇯🇵 日本 (Japan) 81 - ayx
-  - 🇯🇵 日本 (Japan) 82 - ayx
-  - 🇯🇵 日本 (Japan) 83 - ayx
-  - 🇯🇵 日本 (Japan) 84 - ayx
-  - 🇯🇵 日本 (Japan) 85 - ayx
-  - 🇯🇵 日本 (Japan) 86 - ayx
-  - 🇯🇵 日本 (Japan) 87 - ayx
-  - 🇯🇵 日本 (Japan) 88 - ayx
-  - 🇯🇵 日本 (Japan) 89 - ayx
-  - 🇯🇵 日本 (Japan) 90 - ayx
-  - 🇯🇵 日本 (Japan) 91 - ayx
-  - 🇯🇵 日本 (Japan) 92 - ayx
-  - 🇯🇵 日本 (Japan) 93 - ayx
-  - 🇯🇵 日本 (Japan) 94 - ayx
-  - 🇯🇵 日本 (Japan) 95 - ayx
-  - 🇯🇵 日本 (Japan) 96 - ayx
-  - 🇯🇵 日本 (Japan) 97 - ayx
-  - 🇯🇵 日本 (Japan) 98 - ayx
-  - 🇯🇵 日本 (Japan) 99 - ayx
-  - 🇯🇵 日本 (Japan) 100 - ayx
-  - 🇯🇵 日本 (Japan) 101 - ayx
 rules:
 - MATCH,PROXIES
