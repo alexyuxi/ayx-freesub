@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - ayx",
-        "🇨🇳 CN 02 - ayx"
+        "🇪🇸 西班牙 (Spain) 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - ayx",
-        "🇨🇳 CN 02 - ayx"
+        "🇪🇸 西班牙 (Spain) 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
