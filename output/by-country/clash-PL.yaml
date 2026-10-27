@@ -14,66 +14,29 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - ayx
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 03 - ayx
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 04 - ayx
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 05 - ayx
-  type: vless
-  server: milo.networkforexir.site
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 06 - ayx
-  type: vmess
-  server: 45.144.48.32
-  port: 57072
-  uuid: d8f45bbb-e84d-4ad5-aa63-970f1345b164
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 07 - ayx
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 08 - ayx
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 09 - ayx
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -81,17 +44,15 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 10 - ayx
-  type: vmess
-  server: 45.144.48.32
-  port: 57072
-  uuid: d8f45bbb-e84d-4ad5-aa63-970f1345b164
-  alterId: 0
-  cipher: auto
+- name: 🇵🇱 PL 06 - ayx
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 11 - ayx
+- name: 🇵🇱 PL 07 - ayx
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -100,7 +61,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 12 - ayx
+- name: 🇵🇱 PL 08 - ayx
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -109,7 +70,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 13 - ayx
+- name: 🇵🇱 PL 09 - ayx
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -132,10 +93,6 @@ proxy-groups:
   - 🇵🇱 PL 07 - ayx
   - 🇵🇱 PL 08 - ayx
   - 🇵🇱 PL 09 - ayx
-  - 🇵🇱 PL 10 - ayx
-  - 🇵🇱 PL 11 - ayx
-  - 🇵🇱 PL 12 - ayx
-  - 🇵🇱 PL 13 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -150,9 +107,5 @@ proxy-groups:
   - 🇵🇱 PL 07 - ayx
   - 🇵🇱 PL 08 - ayx
   - 🇵🇱 PL 09 - ayx
-  - 🇵🇱 PL 10 - ayx
-  - 🇵🇱 PL 11 - ayx
-  - 🇵🇱 PL 12 - ayx
-  - 🇵🇱 PL 13 - ayx
 rules:
 - MATCH,PROXIES
