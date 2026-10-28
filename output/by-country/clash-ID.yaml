@@ -6,7 +6,52 @@ log-level: info
 proxies:
 - name: 🇮🇩 ID 01 - ayx
   type: vless
+  server: 130.94.95.198
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in001.zestapp778.com
+- name: 🇮🇩 ID 02 - ayx
+  type: vless
+  server: 130.94.95.198
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in001.zestapp778.com
+- name: 🇮🇩 ID 03 - ayx
+  type: vless
   server: in001.zestapp778.com
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in001.zestapp778.com
+- name: 🇮🇩 ID 04 - ayx
+  type: vless
+  server: in001.zestapp778.com
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in001.zestapp778.com
+- name: 🇮🇩 ID 05 - ayx
+  type: vless
+  server: 130.94.95.198
+  port: 57353
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: in001.zestapp778.com
+- name: 🇮🇩 ID 06 - ayx
+  type: vless
+  server: 130.94.95.198
   port: 57353
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -19,11 +64,21 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇩 ID 01 - ayx
+  - 🇮🇩 ID 02 - ayx
+  - 🇮🇩 ID 03 - ayx
+  - 🇮🇩 ID 04 - ayx
+  - 🇮🇩 ID 05 - ayx
+  - 🇮🇩 ID 06 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇩 ID 01 - ayx
+  - 🇮🇩 ID 02 - ayx
+  - 🇮🇩 ID 03 - ayx
+  - 🇮🇩 ID 04 - ayx
+  - 🇮🇩 ID 05 - ayx
+  - 🇮🇩 ID 06 - ayx
 rules:
 - MATCH,PROXIES
