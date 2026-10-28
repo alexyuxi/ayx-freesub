@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇺🇦 UA 01 - ayx",
-        "🇺🇦 UA 02 - ayx"
+        "🇺🇦 UA 02 - ayx",
+        "🇺🇦 UA 03 - ayx",
+        "🇺🇦 UA 04 - ayx"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 UA 01 - ayx",
-        "🇺🇦 UA 02 - ayx"
+        "🇺🇦 UA 02 - ayx",
+        "🇺🇦 UA 03 - ayx",
+        "🇺🇦 UA 04 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
