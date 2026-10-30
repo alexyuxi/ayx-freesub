@@ -13,38 +13,15 @@ proxies:
   udp: true
 - name: 🇷🇴 RO 02 - ayx
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇷🇴 RO 03 - ayx
-  type: ss
-  server: 194.68.44.42
-  port: 64546
-  cipher: chacha20-ietf-poly1305
-  password: U83u9OGpvSatIUW7LsWffr
-  udp: true
-- name: 🇷🇴 RO 04 - ayx
-  type: vless
-  server: 178.83.45.226
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇷🇴 RO 05 - ayx
-  type: vless
   server: 155.117.5.208
   port: 2052
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 06 - ayx
+- name: 🇷🇴 RO 03 - ayx
   type: vless
-  server: edge10.cyrionflare.com
+  server: 178.83.45.226
   port: 2052
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
@@ -58,9 +35,6 @@ proxy-groups:
   - 🇷🇴 RO 01 - ayx
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
-  - 🇷🇴 RO 04 - ayx
-  - 🇷🇴 RO 05 - ayx
-  - 🇷🇴 RO 06 - ayx
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,8 +43,5 @@ proxy-groups:
   - 🇷🇴 RO 01 - ayx
   - 🇷🇴 RO 02 - ayx
   - 🇷🇴 RO 03 - ayx
-  - 🇷🇴 RO 04 - ayx
-  - 🇷🇴 RO 05 - ayx
-  - 🇷🇴 RO 06 - ayx
 rules:
 - MATCH,PROXIES

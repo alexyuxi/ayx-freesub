@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - ayx",
-        "🇹🇭 TH 02 - ayx",
-        "🇹🇭 TH 03 - ayx",
-        "🇹🇭 TH 04 - ayx",
-        "🇹🇭 TH 05 - ayx",
-        "🇹🇭 TH 06 - ayx"
+        "🇷🇺 俄罗斯 (Russia) 01 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - ayx",
-        "🇹🇭 TH 02 - ayx",
-        "🇹🇭 TH 03 - ayx",
-        "🇹🇭 TH 04 - ayx",
-        "🇹🇭 TH 05 - ayx",
-        "🇹🇭 TH 06 - ayx"
+        "🇷🇺 俄罗斯 (Russia) 01 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
