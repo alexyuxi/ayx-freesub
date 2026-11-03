@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇳 CN 01 - ayx",
+        "🇨🇳 CN 02 - ayx",
+        "🇨🇳 CN 03 - ayx",
+        "🇨🇳 CN 04 - ayx",
+        "🇨🇳 CN 05 - ayx",
+        "🇨🇳 CN 06 - ayx",
+        "🇨🇳 CN 07 - ayx",
+        "🇨🇳 CN 08 - ayx"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇳 CN 01 - ayx",
+        "🇨🇳 CN 02 - ayx",
+        "🇨🇳 CN 03 - ayx",
+        "🇨🇳 CN 04 - ayx",
+        "🇨🇳 CN 05 - ayx",
+        "🇨🇳 CN 06 - ayx",
+        "🇨🇳 CN 07 - ayx",
+        "🇨🇳 CN 08 - ayx"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
