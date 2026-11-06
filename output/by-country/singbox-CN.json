@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - ayx"
+        "🇨🇳 CN 01 - ayx",
+        "🇨🇳 CN 02 - ayx",
+        "🇨🇳 CN 03 - ayx"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - ayx"
+        "🇨🇳 CN 01 - ayx",
+        "🇨🇳 CN 02 - ayx",
+        "🇨🇳 CN 03 - ayx"
       ],
       "url": "https://www.google.com/generate_204"
     },
