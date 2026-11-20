@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇪 IE 01 - ayx",
+        "🇮🇪 IE 02 - ayx",
+        "🇮🇪 IE 03 - ayx",
+        "🇮🇪 IE 04 - ayx",
+        "🇮🇪 IE 05 - ayx"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - ayx",
+        "🇮🇪 IE 02 - ayx",
+        "🇮🇪 IE 03 - ayx",
+        "🇮🇪 IE 04 - ayx",
+        "🇮🇪 IE 05 - ayx"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
